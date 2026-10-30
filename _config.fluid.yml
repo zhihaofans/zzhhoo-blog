@@ -1,0 +1,53 @@
+# ==========================================================
+# Fluid 主题配置（hexo-theme-fluid 1.9.x）
+#
+# 这里只写需要覆盖主题默认值（node_modules/hexo-theme-fluid/_config.yml）的部分，
+# 未列出的项全部沿用主题默认值。完整可配置项见上述文件，文档：https://hexo.fluid-dev.com/docs/
+# ==========================================================
+
+# 站点图标（暂时用头像代替，等有正经 favicon 再换）
+favicon: /assets/avatar.jpg
+apple_touch_icon: /assets/avatar.jpg
+
+# 深色模式：跟随系统
+dark_mode:
+  enable: true
+  default: auto
+
+# 顶部导航
+navbar:
+  blog_title: ZZHHOO的博客
+
+# 首页头图
+index:
+  banner_img: /assets/wallpaper-878514.jpg
+  banner_img_height: 80
+
+# 文章页头图
+post:
+  banner_img: /assets/wallpaper-878514.jpg
+  banner_img_height: 60
+
+# 归档 / 分类 / 标签页头图
+archive:
+  banner_img: /assets/wallpaper-878514.jpg
+category:
+  banner_img: /assets/wallpaper-878514.jpg
+tag:
+  banner_img: /assets/wallpaper-878514.jpg
+
+# 关于页
+about:
+  enable: true
+  banner_img: /assets/wallpaper-878514.jpg
+  avatar: /assets/avatar.jpg
+  name: zzhhoo
+  intro: 随便记点东西
+  icons:
+    - { class: "iconfont icon-github-fill", link: "https://github.com/zhihaofans/", tip: "GitHub" }
+
+# 本地搜索（索引由主题按此配置生成，不依赖额外插件）
+search:
+  enable: true
+  path: /local-search.xml
+  generate_path: /local-search.xml
